@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    margin: auto;
+    margin-top: 15%;
+    font-style: bold;
+    font-size: large;
+}
+  
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color:grey; /* Dark grey background on mouse-over */
+    outline: double;
+    outline-color: red;
+    outline-width: 3px;
+}
+
+.vertical-menu a.active {
+    background-color: grey; /* Add a green color to the "active/current" link */ 
+}
+
+.calender {
+    font-size: larger;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 5.3in;
+    margin-top: 2in;
+}
+
+.calender input {
+    padding: 3px;
+    margin-right: 2cm;
+    text-align: center;
+}
+
+.calender select {
+    padding: 2px;
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
